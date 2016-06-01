@@ -1,0 +1,141 @@
+@@font-face {
+  font-family: Quito;
+  src: url(../fonts/Quito.ttf);
+}
+
+@@font-face {
+  font-family: Phenomena;
+  src: url(../fonts/Phenomena-Regular.otf);
+}
+
+html, body, div, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+nav {
+  display: block;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  font-family: 'Phenomena';
+}
+
+header p {
+  color: #ffffff;
+  position: relative;
+  margin: 0 0 1.6875em 0;
+}
+
+header h2 + p {
+  font-size: 1.25em;
+  margin-top: -0.5em;
+  line-height: 1.5em;
+}
+
+header h3 + p {
+  font-size: 1.1em;
+  margin-top: -0.35em;
+  line-height: 1.5em;
+}
+
+header h4 + p,
+header h5 + p,
+header h6 + p {
+  font-size: 0.9em;
+  margin-top: -0.25em;
+  line-height: 1.5em;
+}
+
+ul {
+  list-style: none;
+  margin: 0 0 2.25em 0;
+  padding-left: 1em;
+}
+
+ul li {
+  padding-left: 0.5em;
+  padding-top: 1em;
+}
+
+/* Image */
+
+	.image {
+		border-radius: 5px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+.image.avatar img {
+	border-radius: 100%;
+	display: block;
+	width: 60%;
+  margin-left: 20%;
+  margin-top: 1em;
+}
+
+#header {
+  background: #263238;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 18em;
+  left: 0;
+}
+
+#header h1, a, p {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header > header h1 {
+  font-size: 1.75em;
+}
+
+#header > header p {
+  color: #ffffff;
+  margin: 0 0 2em 0;
+}
+
+#header > nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#header > nav ul li {
+  border-top: solid 2px #37474F;
+  display: block;
+  padding: 0;
+}
+
+#header > nav ul li a {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -ms-transition: none;
+  transition: none;
+  border: 0;
+  color: #fffff;
+  display: block;
+  padding: 0.85em 0;
+  text-decoration: none;
+}
+
+#end-li {
+  border-bottom: solid 2px #37474F;
+}
+
+#logo-letter {
+  font-family: 'Quito';
+}
+
+a:hover {
+  color: #9FA8DA;
+}
